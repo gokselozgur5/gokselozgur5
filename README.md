@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @gokselozgur5
-- 👀 I’m interested in Javascript, React
+- 👀 I’m interested in Javascript, React, Node.js
 - 🌱 I’m currently learning React
 - 📫 How to reach me gokselozgur5@gmail.com
 
