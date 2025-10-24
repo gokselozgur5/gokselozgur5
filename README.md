@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Göksel Özgür
+- 👋 Hi, I’m Goksel Ozgur
 - 👀 I’m Senior Edge AI Engineer 
 - I love learning
 - 📫 How to reach me gokselozgur5@gmail.com
