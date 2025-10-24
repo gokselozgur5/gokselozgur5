@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Göksel Özgür
-- 👀 I’m interested in Full-Stack and Machine Learning Engineering
-- 🌱 I’m currently learning JAVA
+- 👀 I’m Senior Edge AI Engineer 
+- I love learning
 - 📫 How to reach me gokselozgur5@gmail.com
 
 <!---
