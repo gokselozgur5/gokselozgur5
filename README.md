@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Goksel Ozgur
 - 👀 I’m Senior Edge AI Engineer 
 - I love learning
-- My job account github.com/Gozgur
+- My job account [github.com/Gozgur](https://github.com/Gozgur)
 - 📫 How to reach me gokselozgur5@gmail.com
 
 <!---
