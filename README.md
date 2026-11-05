@@ -25,8 +25,8 @@ flowchart LR
 
 - **Spatial Computing (VR / AR):** OpenXR, Meta Quest 3 Passthrough Mixed Reality, WebXR, Three.js, Spatial Anchors, 3D Tactical HUDs.
 - **Robotics & Embedded Hardware:** ROS 1 (Noetic), ROS 2 (Jazzy / Humble), `ros1_bridge` migration, URDF/Xacro, Forward & Inverse Kinematics, MoveIt / Nav2, FLIR Spinnaker camera drivers, Serial Bus Actuators (Dynamixel / Feetech), STM32, Jetson Orin / Thor, KiCad PCB/DFM.
-- **Tactical & Edge AI:** ATAK / Cursor-on-Target (CoT), NVIDIA DeepStream, GStreamer, TensorRT, Embodied LLM Tool/Gesture Planners.
-- **Systems & Full-Stack:** Rust, C++, Python, TypeScript, ZeroMQ, WebSockets, Docker.
+- **Tactical & Edge AI:** ATAK / Cursor-on-Target (CoT), Custom Java ATAK Plugins, NVIDIA DeepStream, GStreamer, TensorRT, Embodied LLM Tool/Gesture Planners.
+- **Distributed Messaging & Full-Stack:** Rust, C++, Python, Java, JavaScript / TypeScript (React, Node.js, Three.js), RabbitMQ, Redis, Celery, ZeroMQ, WebSockets, Docker.
 
 ## Contact & Profiles
 
