@@ -1,10 +1,10 @@
 # Göksel Özgür — Spatial, Tactical & Embodied AI Systems Architect
 
-Building end-to-end physical and spatial autonomy systems across **VR/AR (OpenXR / Meta Quest 3)**, **Tactical Situational Awareness (TAK / CoT)**, **Robotics (ROS 2 Jazzy / Kinematics)**, **Edge Computer Vision & ML (DeepStream / TensorRT)**, **Custom PCB & Embedded Hardware**, and **Full-Stack Rust / C++**.
+Building end-to-end physical and spatial autonomy systems across **VR/AR (OpenXR / Meta Quest 3)**, **Tactical Situational Awareness (TAK / CoT)**, **Robotics (ROS 1 Noetic & ROS 2 Jazzy/Humble)**, **Edge Computer Vision & ML (DeepStream / TensorRT)**, **Custom PCB & Embedded Hardware**, and **Full-Stack Rust / C++**.
 
 ```mermaid
 flowchart LR
-    HW["PCB & Embedded Sensors"] -->|UART / CAN / CSI| ROS["ROS 2 Robotics & IK"]
+    HW["PCB & Embedded Sensors"] -->|UART / CAN / Spinnaker| ROS["ROS 1 Noetic & ROS 2 Robotics"]
     ROS -->|Zero-Copy Video & Telemetry| CV["Edge ML / DeepStream & LLM"]
     CV -->|CoT XML / UDP Multicast| TAK["TAK Tactical Network"]
     TAK -->|C-ABI FFI / WebXR| XR["VR & AR Passthrough HUD (Quest 3)"]
@@ -24,7 +24,7 @@ flowchart LR
 ## Core Stack & Capabilities
 
 - **Spatial Computing (VR / AR):** OpenXR, Meta Quest 3 Passthrough Mixed Reality, WebXR, Three.js, Spatial Anchors, 3D Tactical HUDs.
-- **Robotics & Embedded Hardware:** ROS 2 (Jazzy / Humble), URDF/Xacro, Forward & Inverse Kinematics, Serial Bus Actuators (Dynamixel / Feetech), STM32, Jetson Orin / Thor, KiCad PCB/DFM.
+- **Robotics & Embedded Hardware:** ROS 1 (Noetic), ROS 2 (Jazzy / Humble), `ros1_bridge` migration, URDF/Xacro, Forward & Inverse Kinematics, MoveIt / Nav2, FLIR Spinnaker camera drivers, Serial Bus Actuators (Dynamixel / Feetech), STM32, Jetson Orin / Thor, KiCad PCB/DFM.
 - **Tactical & Edge AI:** ATAK / Cursor-on-Target (CoT), NVIDIA DeepStream, GStreamer, TensorRT, Embodied LLM Tool/Gesture Planners.
 - **Systems & Full-Stack:** Rust, C++, Python, TypeScript, ZeroMQ, WebSockets, Docker.
 
