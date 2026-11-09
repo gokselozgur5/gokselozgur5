@@ -1,5 +1,3 @@
-# Göksel Özgür — Spatial, Tactical & Embodied AI Systems Architect
-
 Building end-to-end physical, spatial autonomy and frontier AI systems across **VR/AR (OpenXR / Meta Quest 3)**, **Tactical Situational Awareness (TAK / CoT)**, **Robotics (ROS 1 Noetic & ROS 2 Jazzy/Humble)**, **Zero-Dependency LLM Engines & Fine-Tuning (Autograd / FlashAttention / Alignment / RAG)**, **Custom PCB & Embedded Hardware**, and **High-Performance Rust / C++**.
 
 ```mermaid
