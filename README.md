@@ -19,3 +19,9 @@ Systems and autonomous robotics engineer building deterministic navigation cores
 - **Perception & State Estimation:** Extended Kalman Filtering (Joseph stabilized, NIS gating), SO(3) strapdown kinematics, monocular 3D ranging, WGS84/ECEF geodesy, multi-target tracking.
 - **Spatial Computing & Tactical Networking:** WebXR, OpenXR, Three.js, Cursor-on-Target (CoT 2.0 XML over UDP multicast), ATAK plugin architecture, C-ABI FFI bindings.
 - **Autonomous Robotics & Hardware Design:** ROS 2 (Jazzy/Humble), analytical inverse kinematics, serial actuator buses, KiCad schematic and PCB design, DFM layout verification.
+
+## Contact & Links
+
+- **Enterprise & Team GitHub:** [github.com/Gozgur](https://github.com/Gozgur)
+- **LinkedIn:** [linkedin.com/in/goske](https://www.linkedin.com/in/goske)
+- **Engineering Inquiries:** `gokselozgur5@gmail.com`
