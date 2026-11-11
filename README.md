@@ -2,14 +2,12 @@
 
 Systems and autonomous robotics engineer building deterministic navigation cores, spatial perception pipelines, and embedded edge systems. Focused on `#![no_std]` Rust architectures, real-time monocular 3D tracking, tactical CoT telemetry, and production hardware integration.
 
-## Flagship Engineering Systems
+## Selected Engineering Systems
 
-| Repository | Domain | Architecture & Verification Highlights |
+| Repository | Domain | Core Architecture & Verification Highlights |
 | :--- | :--- | :--- |
-| [**`parallax-core`**](https://github.com/gokselozgur5/parallax-core) | **First-Principles LLM & Deep Learning Engine** | Zero-dependency pure NumPy/math LLM framework: Autograd, FlashAttention-2, FlashDecoding, Ring Attention, DeepSeek MLA, PagedAttention, Speculative Decoding, Muon Optimizer, FP8 GEMM, BitNet b1.58, and direct preference alignment (DPO, ORPO, SimPO, IPO). |
-| [**`jessy`**](https://github.com/gokselozgur5/jessy) | **Cognitive AI & Semantic Layer Engine (Rust)** | High-performance multi-layer semantic reasoning core in Rust: 15 cognitive layers, 4-stage observer chain, custom intent-based RAG orchestration, and high-throughput async memory pipelines. |
-| [**`xrtak`**](https://github.com/gokselozgur5/xrtak) | **VR / AR + TAK (OpenXR)** | 3D Tactical Sand Table, First-Person Passthrough Visor HUD, bidirectional ATAK CoT bridge, and Rust C-ABI OpenXR core, and [Live Quest 3 WebXR](https://gokselozgur5.github.io/xrtak)
-| [**`ar-bot-jimmy`**](https://github.com/gokselozgur5/ar-bot-jimmy) | **Robotics + AR + LLM** | 38 cm Full-Body ROS 2 humanoid with 3-pivot analytical IK, STS3215 serial bus protocol, Embodied LLM Puppeteer, and [Live Quest 3 WebXR Omni-HUD](https://gokselozgur5.github.io/ar-bot-jimmy/web/). |
+| [**`stm32-navcore`**](https://github.com/gokselozgur5/stm32-navcore) | **Deterministic Embedded Navigation** | `#![no_std]` zero-alloc Rust navigation engine for STM32 Cortex-M4F with strapdown SO(3) attitude, Joseph-form IMU/GNSS EKF, and COBS/CRC-16/CAN telemetry. |
+| [**`sightline-cot`**](https://github.com/gokselozgur5/sightline-cot) | **Real-Time Spatial Vision & CoT** | Pure Rust monocular 3D ranging, fisheye back-projection, Joseph-stabilized Kalman tracking, WGS84 geodesy, and zero-alloc CoT 2.0 XML UDP broadcast with C-ABI. |
 | [**`ros2-corridor-swarm`**](https://github.com/gokselozgur5/ros2-corridor-swarm) | **ROS 2 + TAK + Edge AI** | ROS 2 Jazzy multi-UGV fleet on Jetson Thor with Gazebo simulation, corridor patrol, geofencing, ATAK CoT feed, and LLM mission planner. |
 | [**`orbital-mechanic`**](https://github.com/gokselozgur5/orbital-mechanic) | **Autonomous Robotics** | ROS 2 maintenance robot with Nav2 localization, safety-interlocked repair execution, and LLM fault diagnosis. |
 | [**`pcb-design-collar-tracker`**](https://github.com/gokselozgur5/pcb-design-collar-tracker) | **Hardware & PCB Design** | Miniature GPS & cellular tracker with KiCad schematics, multi-layer PCB layout, and DFM verification evidence. |
