@@ -11,17 +11,11 @@ Systems and autonomous robotics engineer building deterministic navigation cores
 | [**`parallax-core`**](https://github.com/gokselozgur5/parallax-core) | **First-Principles Deep Learning Core** | Zero-dependency mathematical LLM engine: Autograd, FlashAttention-2, FlashDecoding, Ring Attention, DeepSeek MLA, PagedAttention, FP8 GEMM, and alignment primitives. |
 | [**`xrtak`**](https://github.com/gokselozgur5/xrtak) | **Spatial Computing & Tactical Mixed Reality** | 3D Geospatial Sand Table, First-Person Passthrough Visor HUD, bidirectional ATAK CoT telemetry bridge, and Rust C-ABI OpenXR core on Meta Quest 3. |
 | [**`ar-bot-jimmy`**](https://github.com/gokselozgur5/ar-bot-jimmy) | **Robotics Kinematics & Companion Agent** | Modular ROS 2 humanoid companion robot with 3-pivot analytical inverse kinematics, serial bus servo control, embodied agent puppeteer, and WebXR hologram link. |
-## Core Stack & Capabilities
+| [**`pcb-design-collar-tracker`**](https://github.com/gokselozgur5/pcb-design-collar-tracker) | **Hardware & PCB Systems** | Miniature GNSS and cellular tracking platform: KiCad multi-layer schematics, impedance-controlled RF routing, nano-SIM layout, and DFM verification. |
 
-- **LLM Systems, Pretraining & Fine-Tuning:** First-principles Transformer design, LoRA / DoRA / X-LoRA parameter-efficient fine-tuning, Retrieval-Augmented Generation (RAG) vector retrieval pipelines, RLHF / DPO / ORPO / SimPO / IPO preference optimization, Quantization (FP8, INT8, Ternary BitNet b1.58).
-- **High-Performance Rust & Systems:** Async Rust (Tokio), C-ABI FFI bindings, zero-copy memory dispatch, custom high-throughput tokenizers, vector search indexing, SIMD/BLAS integration.
-- **Spatial Computing (VR / AR):** OpenXR, Meta Quest 3 Passthrough Mixed Reality, WebXR, Three.js, Spatial Anchors, 3D Tactical HUDs.
-- **Robotics & Embedded Hardware:** ROS 1 (Noetic), ROS 2 (Jazzy / Humble), `ros1_bridge` migration, URDF/Xacro, Forward & Inverse Kinematics, MoveIt / Nav2, FLIR Spinnaker camera drivers, Serial Bus Actuators (Dynamixel / Feetech), STM32, Jetson Orin / Thor, KiCad PCB/DFM.
-- **Tactical & Edge AI:** ATAK / Cursor-on-Target (CoT), Custom Java ATAK Plugins, NVIDIA DeepStream, GStreamer, TensorRT, Embodied LLM Tool/Gesture Planners.
-- **Distributed Messaging & Full-Stack:** Rust, C++, Python, Java, TypeScript (React, Node.js, Three.js), RabbitMQ, Redis, Celery, ZeroMQ, WebSockets, Docker.
+## Core Technical Stack
 
-## Contact & Profiles
-
-- **Enterprise / Work GitHub:** [github.com/Gozgur](https://github.com/Gozgur)
-- **LinkedIn:** [linkedin.com/in/goske](https://www.linkedin.com/in/goske)
-- **Direct Inquiries & Rapid R&D Prototyping:** `gokselozgur5@gmail.com`
+- **Systems & Embedded:** Rust (`#![no_std]`, embedded-hal), C/C++, STM32 Cortex-M4F, RTOS, memory-mapped I/O, UART, CAN 2.0B, SPI, I2C, COBS, CRC codecs.
+- **Perception & State Estimation:** Extended Kalman Filtering (Joseph stabilized, NIS gating), SO(3) strapdown kinematics, monocular 3D ranging, WGS84/ECEF geodesy, multi-target tracking.
+- **Spatial Computing & Tactical Networking:** WebXR, OpenXR, Three.js, Cursor-on-Target (CoT 2.0 XML over UDP multicast), ATAK plugin architecture, C-ABI FFI bindings.
+- **Autonomous Robotics & Hardware Design:** ROS 2 (Jazzy/Humble), analytical inverse kinematics, serial actuator buses, KiCad schematic and PCB design, DFM layout verification.
