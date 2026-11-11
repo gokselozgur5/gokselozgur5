@@ -8,11 +8,9 @@ Systems and autonomous robotics engineer building deterministic navigation cores
 | :--- | :--- | :--- |
 | [**`stm32-navcore`**](https://github.com/gokselozgur5/stm32-navcore) | **Deterministic Embedded Navigation** | `#![no_std]` zero-alloc Rust navigation engine for STM32 Cortex-M4F with strapdown SO(3) attitude, Joseph-form IMU/GNSS EKF, and COBS/CRC-16/CAN telemetry. |
 | [**`sightline-cot`**](https://github.com/gokselozgur5/sightline-cot) | **Real-Time Spatial Vision & CoT** | Pure Rust monocular 3D ranging, fisheye back-projection, Joseph-stabilized Kalman tracking, WGS84 geodesy, and zero-alloc CoT 2.0 XML UDP broadcast with C-ABI. |
-| [**`ros2-corridor-swarm`**](https://github.com/gokselozgur5/ros2-corridor-swarm) | **ROS 2 + TAK + Edge AI** | ROS 2 Jazzy multi-UGV fleet on Jetson Thor with Gazebo simulation, corridor patrol, geofencing, ATAK CoT feed, and LLM mission planner. |
-| [**`orbital-mechanic`**](https://github.com/gokselozgur5/orbital-mechanic) | **Autonomous Robotics** | ROS 2 maintenance robot with Nav2 localization, safety-interlocked repair execution, and LLM fault diagnosis. |
-| [**`pcb-design-collar-tracker`**](https://github.com/gokselozgur5/pcb-design-collar-tracker) | **Hardware & PCB Design** | Miniature GPS & cellular tracker with KiCad schematics, multi-layer PCB layout, and DFM verification evidence. |
-| [**`runpod-comfyui-i2v-pipeline`**](https://github.com/gokselozgur5/runpod-comfyui-i2v-pipeline) | **Cloud GPU & Generative CV** | Auditable GPU cluster orchestration, video synthesis, and automated quality gates. |
-
+| [**`parallax-core`**](https://github.com/gokselozgur5/parallax-core) | **First-Principles Deep Learning Core** | Zero-dependency mathematical LLM engine: Autograd, FlashAttention-2, FlashDecoding, Ring Attention, DeepSeek MLA, PagedAttention, FP8 GEMM, and alignment primitives. |
+| [**`xrtak`**](https://github.com/gokselozgur5/xrtak) | **Spatial Computing & Tactical Mixed Reality** | 3D Geospatial Sand Table, First-Person Passthrough Visor HUD, bidirectional ATAK CoT telemetry bridge, and Rust C-ABI OpenXR core on Meta Quest 3. |
+| [**`ar-bot-jimmy`**](https://github.com/gokselozgur5/ar-bot-jimmy) | **Robotics Kinematics & Companion Agent** | Modular ROS 2 humanoid companion robot with 3-pivot analytical inverse kinematics, serial bus servo control, embodied agent puppeteer, and WebXR hologram link. |
 ## Core Stack & Capabilities
 
 - **LLM Systems, Pretraining & Fine-Tuning:** First-principles Transformer design, LoRA / DoRA / X-LoRA parameter-efficient fine-tuning, Retrieval-Augmented Generation (RAG) vector retrieval pipelines, RLHF / DPO / ORPO / SimPO / IPO preference optimization, Quantization (FP8, INT8, Ternary BitNet b1.58).
