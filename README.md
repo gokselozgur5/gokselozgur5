@@ -1,13 +1,6 @@
-Building end-to-end physical, spatial autonomy and frontier AI systems across **VR/AR (OpenXR / Meta Quest 3)**, **Tactical Situational Awareness (TAK / CoT)**, **Robotics (ROS 1 Noetic & ROS 2 Jazzy/Humble)**, **Zero-Dependency LLM Engines & Fine-Tuning (Autograd / FlashAttention / Alignment / RAG)**, **Custom PCB & Embedded Hardware**, and **High-Performance Rust / C++**.
+# Göksel Özgür
 
-```mermaid
-flowchart LR
-    HW["PCB & Embedded Sensors"] -->|UART / CAN / Spinnaker| ROS["ROS 1 Noetic & ROS 2 Robotics"]
-    ROS -->|Telemetry & Visual Sensing| LLM["First-Principles LLM, Fine-Tuning & RAG"]
-    LLM -->|DeepStream & TensorRT| CV["Edge ML & Situational Inference"]
-    CV -->|CoT XML / UDP Multicast| TAK["TAK Tactical Network"]
-    TAK -->|C-ABI FFI / WebXR| XR["VR & AR Passthrough HUD (Quest 3)"]
-```
+Systems and autonomous robotics engineer building deterministic navigation cores, spatial perception pipelines, and embedded edge systems. Focused on `#![no_std]` Rust architectures, real-time monocular 3D tracking, tactical CoT telemetry, and production hardware integration.
 
 ## Flagship Engineering Systems
 
